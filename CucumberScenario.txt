@@ -1,0 +1,5 @@
+Scenario: Verify google homepage
+GIVEN open the browser
+WHEN user navigates to google homepage
+THEN verify search textbox is displayed or not
+AND verify google search button is displayed or not

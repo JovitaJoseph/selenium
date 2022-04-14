@@ -3,17 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Selenium.ClearTripPOM">
+      <class name="com.demo.test.Saucedemologintest">
         <methods>
-          <include name="Search"/>
-          <include name="DepartTo"/>
-          <include name="getproperty"/>
-          <include name="NoOfPassengers"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="FromTo"/>
+          <include name="logintest"/>
+          <include name="loadbaseurl"/>
+          <include name="screenshotanddeletecookies"/>
+          <include name="suitesetup"/>
         </methods>
-      </class> <!-- com.Selenium.ClearTripPOM -->
+      </class> <!-- com.demo.test.Saucedemologintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
